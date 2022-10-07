@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+    <link href="node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Quicksand&display=swap" />
     <link rel="stylesheet" href="css/styles.css" />
 
@@ -16,17 +20,27 @@
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-4 col-sm-3 col-md-2">
                     <div>
-                        <h2>Knit.Poppy Handmade</h2>
+                        <a href="#"><img src="img/logo.png" class="img-fluid"/></a>
                     </div>
                 </div>
                 <div class="col col-sm-9 col-md-10">
-                    <nav>
+                    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
                         <div class="container">
-                            home ррррррррр пролдп твииииииииииииииииии опрплопт арпаоаипм 
-                        </div>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#knitpoppyNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="knitpoppyNavbar">
+                                <ul class="navbar-nav h4">
+                                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="allworks.html">Works</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>    
                     </nav>
                 </div>
             </div>
@@ -85,9 +99,9 @@
                 <div class="col-sm-6 text-center">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li class="list-inline-item"><a href="#">Leave Feedback</a></li>
-                        <li class="list-inline-item"><a href="#">Shipping&Returns</a></li>
-                        <li class="list-inline-item"><a href="#">Contact</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-info">Leave Feedback</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-info">Shipping&Returns</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-info">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 text-center">
@@ -99,9 +113,9 @@
                 <div class="col text-center">
                     <div>
                         <h5>Social</h5>
-                        <a href="http://instagram.com/">Instagram</a>
-                        <a href="http://facebook.com/">Facebook</a>
-                        <a href="http://youtube.com/">YouTube</a>
+                        <a href="http://instagram.com/" class="text-info"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                        <a href="http://facebook.com/" class="text-info"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                        <a href="http://youtube.com/" class="text-info"><i class="fa-brands fa-youtube fa-2xl"></i></a>
                     </div>
                 </div>
             </div>

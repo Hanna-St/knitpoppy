@@ -7,9 +7,9 @@ h2, h4, h5 {
 }
 
 .jumbotron {
-    padding: 60px;
-    background: url(/img/poppy-header.jpg) no-repeat center center / cover;
-    color: white;
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(white, rgb(249, 207, 214));
 }
 
 footer {
@@ -21,4 +21,8 @@ footer {
 .row-content {
     padding: 50px 0;
     min-height: 200px;
+}
+
+.breadcrumb {
+    background: white;
 }
